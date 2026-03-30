@@ -1,0 +1,310 @@
+\documentclass[12pt]{article}
+
+% 0. Don't change anything in here. This space is called the preamble, it is where you tell the computer to load the proper LaTeX packages to perform the math and formatting desired. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{physics} 
+\usepackage{siunitx} 
+\usepackage{enumerate} 
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{tikz,pgfplots}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+	
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\pgfplotsset{compat=1.14}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 0. Again, Don't change anything above.
+
+\begin{document}
+
+\title{Eureka! Unbelievable Experiments: Your Lab Report Name Here} 
+% 1. Create a title here! It should be concise and clear.
+\author{Firstname Lastname, Firstname Lastname, Firstname Lastname} 
+% 2. Enter your first and last names here.
+
+\date{\today}  
+% 3. This will automatically put today's date in the report.
+
+\maketitle
+
+\begin{abstract} 
+	In our first experiment ...
+\end{abstract}
+% 4. Write a short "abstract", or summary of the experiment and results.
+% In it, you should state what you did and what you found. 
+% The abstract is meant to be a very short summary of your paper to follow. 
+% NOTE: It is a good suggestion to write the abstract last in your report after you have written everything else. 
+    
+\section{Introduction}
+
+The purpose of this experiment was to ...
+% 5. Write an introduction. Your introduction can be a short paragraph. Start off by stating the purpose of the experiment and why the problem is worth studying. 
+
+\section{Experimental Setup}
+ 
+% 6. In this section, you should explain your experiment in detail. The usual method is that you first explain what you did, then you explain how you did it. Explain how you set up the experiment and collected the data, citing both the materials used as well as stating their purpose and what they are used to collect or to do. You can break up this section into two sections if you wish. The first would be materials and the second would be procedure. Here is a sample bulleted list that is often useful for the materials section. You can also number or letter your materials to easily refer to them later on.
+\begin{description}
+  \item[$\bullet$] Tennis Ball
+  \item[$\bullet$] 
+\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Data}
+
+The number of seconds it took for the birdie to hit the ground was ...
+\\
+
+% 7. In this section you should explain your results. You should NOT interpret the results in this section; that is for the Analysis/Conclusion portion of the lab. Again, you are merely stating the results of your experiment here. 
+
+%%%%%%Here is a nice sample data table%%%%%%%%%%
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|} %this specifies how many columns to make. For example. if you only wanted three columns, it would look like this : {|c|c|c|}
+\hline
+Time (seconds) & Trial 1 (meters) & Trial 2 (meters) & Trial 3 (meters) \\[0.5ex] %Title for each column
+\hline\hline
+$0 s $&$ 2.615 $&$ 2.735 $&$ 2.585 $\\ %data for row 1
+\hline
+$0.1 s $&$ 1.8 $&$ 1.875 $&$ 1.685 $\\ %data for row 2
+\hline
+$0.2 s $&$ 1.445 $&$ 1.39 $&$ 1.44 $\\ %data for row 3
+\hline
+$0.3 s $&$ 1.195 $&$ 1.31 $&$ 1.1 $\\ %data for row 4
+\hline
+$ ... $&$ ... $&$ ... $&$ ... $\\ %data for row 4
+\hline
+\end{tabular}
+\end{center}
+% 
+%% When making a table, make sure every data point is separated by $ to signify a different cell in your table. To end a row, use the \\ to move to the next row. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%    Using Graphs/pictures in LaTeX    %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%In this section you will find the code for inserting a graph into LaTeX.
+%%Once your graph is created in FizzIQ, you can either save the file or take a screen shot using print screen (CTRL + SHIFT + F5 on your Chromebooks, and then select your window). Title your picture as something simple to reference later, for example "graph1.jpg"
+%
+%%You will then click the "project" tab in the upper left-hand corner of overleaf, click the drop-down arrow "main.tex" and click upload to upload your picture. From there, use the code below to insert the picture into your report. 
+%%\includegraphics[width=\textwidth]{YOUR-FILE-NAME-HERE}
+%
+
+\section{Analysis}
+
+The maximum height reached by the tennis ball was ...
+\\
+% 8. This is the most important part of the lab report; it is where you analyze the data. In this section you will interpret your results. 
+    
+% Possible Questions to Address: [1] What is the relationship between your measurements and your final results? [2] What trends were observable? [3] What can you conclude from the graphs that you made? 
+
+\section{Conclusion}
+
+The object that flew the highest was ... 
+
+% 9. Write a short conclusion. It should connect to the introduction and re-state the relevance and importance of the experiment. It is always good to end on a note stating the importance of your findings, the connections to other topics in physics and science, and opportunities for future extensions/research/experiments in the subject.
+    
+% AND DONE!!
+
+
+
+
+
+
+
+
+
+
+
+% Here are some equations and other useful things, feel free to copy and paste into your lab report :) %
+
+% Note: It is super easy to look up equations/constants already formatted in LaTeX online. Here are a few websites I like to use:
+
+% LaTeX Tutorial: http://pages.physics.cornell.edu/sps/pages/resources/latex.html
+	%NOTE: This contains both pdf and text (code) of each document, which includes guides, lab 			report templates, and lots of other good stuff!
+
+% LaTeX Cheat Sheet: http://wch.github.io/latexsheet/
+
+% Equations: http://www.equationsheet.com/sheets/Equations-5.html
+
+% Constants, symbols, letters, etc:  http://www.rpi.edu/dept/arc/training/latex/LaTeX_symbols.pdf
+
+% AP Physics Calculus Reference Table: https://secure-media.collegeboard.org/digitalServices/pdf/ap/physics-c-tables-and-equations-list.pdf
+
+% AP Physics Trig Reference Table: https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-physics-1-equations-table.pdf
+
+% Regents Physics Reference Table: http://www.p12.nysed.gov/assessment/reftable/physics-rt/physics06tbl.pdf
+
+% Here are three good sources to use other than this for considering how to write a good lab report. Much of this guide was gleaned from them
+	
+    %http://web.mit.edu/8.13/www/Samplepaper/simple-zipped/simple-paper.pdf 				-MIT Physics Lab (really, really good template!) 
+    
+    % http://pages.physics.cornell.edu/sps/pages/resources/LatexSession/Exercises/LabReport.pdf -Cornell Template
+    % https://engineering.purdue.edu/ME588/LabManual/report_format.pdf 							-Purdue Engineering Template 
+    % http://physics.columbia.edu/files/physics/content/1291_report_format_and_example.pdf 		-Columbia University Template
+    % https://www.baylor.edu/physics/doc.php/110769.pdf											-Baylor University Template
+    % www.nd.edu/~hgberry/Fall2012/Guidelines.docx												-Notre Dame Template
+    %http://www.esf.edu/iq/colloquium/documents/LabReportnotes.pdf								-SUNY ESF Template
+    %http://writing.engr.psu.edu/workbooks/laboratory.html										-Virginia Tech Template
+    %https://projects.ncsu.edu/labwrite/index_labwrite.htm										-SUPER in-depth guide to writing lab reports
+    
+    %https://gist.github.com/dcernst/1827406													-Template for completing Math homework in LaTeX
+    %https://joshldavis.com/2014/02/12/doing-your-homework-in-latex/							-More about math homework in LaTeX
+    
+    
+    
+%Purdue University Online Writing Lab-OWL: https://owl.english.purdue.edu/ Use this to generate citations!
+
+%Basically, if you get stuck, just google "Latex ______" for whatever you need and look through the LaTeX stackexchange or wiki article to find and copy/paste what you need
+
+
+
+
+
+%	Here are some common equations we use in class. I will continue to update as we continue throughout the year. I will attempt to organize by the order we learn the topics from oldest at the top to newest at the bottom. Go ahead and copy/paste as needed in your report
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Basic Calculus %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		   $$\frac{\mathrm{d}}{\mathrm{d}x}C=0$$
+%           $$\frac{\mathrm{d}}{\mathrm{d}x}Cx=C$$
+%           $$\frac{\mathrm{d}}{\mathrm{d}x}x=1$$           
+%           $$\frac{\mathrm{d}}{\mathrm{d}x}x^n = nx^{n-1} $$  	-power rule
+% 		   $$\frac{\mathrm{d}}{\mathrm{d}x}fg= fg'+f'g$$		-product rule
+%           $$\frac{\mathrm{d}}{\mathrm{d}x}f(g(x))=f'(g(x))g'(x)$$	-chain rule
+%           $$\frac{\mathrm{d}}{\mathrm{d}x} \sin{x} = \cos{x}$$	
+%           $$\frac{\mathrm{d}}{\mathrm{d}x} \cos{x} = -\sin{x}$$
+           
+%           $$\int k \mathrm{d}x = kx+C$$		-integral of a constant
+%           $$\int x^n \mathrm{d}x= \frac{1}{n+1}x^{n+1}+C$$	-power rule for integrals
+%           $$\int \cos{u}\mathrm{d}u = \sin{u} + C$$	
+%           $$\int \sin{u}\mathrm{d}u = -cos{u} + C$$	
+
+% see https://reu.dimacs.rutgers.edu/Symbols.pdf for a nice list of math LaTeX symbols
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Kinematics %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%			$$\bar{v}=\frac{d}{t}$$ 								-average speed
+%			$$v=\frac{\mathrm{d}x}{\mathrm{d}t}$$					-instantaneous velocity definition
+%			$$a=\frac{\mathrm{d}v}{\mathrm{d}t}$$					-instantaneous acceleration definition
+%			if acceleration is constant, then:
+%				$${x_f}={x_i}+{v_i}t+\frac{1}{2}a{t^2}$$  			-free-fall equation
+%				$${v_f}={v_i}+at$$									-find new velocity
+%				$${{v_f}^2}={{v_i}^2}+2a({x_f}-{x_i})$$				-equation without time
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Newton's Laws %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%			$$F_{net}=ma=m\frac{\mathrm{d}v}{\mathrm{d}t}=m\frac{\mathrm{d}^{2}x}{\mathrm{d}{t^2}}$$	-Newt's 2nd Law
+%			$$F_f=\mu F_n$$											-Friction 
+%			$$w=mg$$												-Weight
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Work, Power, Energy %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%			$$W=\Delta E = \int F dx = Fd  \hspace{3pt} \text{(if F constant)} $$ 	-Work-Energy Theorem
+%			$$Power=\frac{\mathrm{d}E}{\mathrm{d}t}=\frac{\mathrm{d}W}{\mathrm{d}t} = \frac{Fd}{t} = F \bar{v}$$		-Power
+%			$$K=\frac{1}{2}mv^2$$													-Kinetic Energy
+%			$$U_g=mgh$$																-Gravitational Potential Energy
+%			$$U_e=\frac{1}{2}kx^2$$													-Spring Potential Energy
+%			$$F_e=kx$$																-Hooke's Law
+%			$$F=-\frac{\mathrm{d}U}{\mathrm{d}x}$$									-Force is derivative of Potential
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Momentum, Center of Mass %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 			$$p=mv$$								-definition of momentum
+%			$$F=\frac{\mathrm{d}p}{\mathrm{d}t}
+%			$$ft=\Delta{p}$$ 						-trig version of impulse momentum theorem
+%			$$J=\int F \mathrm{d}t = \Delta{p}$$	-calc version of impulse momentum theorem
+%			$$p_{before}=p_{after}$$				-Conservation of Momentum
+%			$$X_{c.o.m}=\frac{\Sigma x_i m_i}{M}$$  -x-coordinate of Center of Mass
+%       	$$Y_{c.o.m}=\frac{\Sigma y_i m_i}{M}$$  -y-coordinate of Center of Mass
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Rotational Kinematics %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		$$\omega=\frac{\mathrm{d}\theta}{\mathrm{d}t}$$ 			-definition of angular speed (rad/sec)
+%		$$\alpha=\frac{\mathrm{d}\omega}{\mathrm{d}t}=\frac{\mathrm{d}^2\theta}{\mathrm{d}t^2}$$ 			-definition of angular acceleration
+%		$$v=r\omega$$												-angular/linear velocity connection
+%		$$S=r \theta$$												-arc length/angle connection
+%		if angular acceleration is constant, then:
+%			$$\omega_f=\omega_i+\alpha t$$   	-find angular velocity
+%			$$\theta=\theta_i + \omega_i t + \frac{1}{2} \alpha t^2$$ 		-angular "free-fall" equation
+%			$${\omega_f}^2 = {\omega_i}^2 + 2\alpha(\theta_f - \theta_i)$$ 	-angular equation w/o time
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Rotational Dynamics + Gravitation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		$$\tau=r \times F = rF\sin{\theta}$$			-definition of torque
+%		$$\tau = I \alpha$$								-Newt's 2nd Law for Rotation
+%		$$a_c = v^{2}/r = {\omega^2}r$$					-centripetal acceleration
+%		$$F_c=ma_c = m{\omega^2}r$$						-centripetal force
+%		$$I=\int r^2 \mathrm{d}m = \Sigma m r^2$$		-Calculate Moment of Inertia of an Object
+%		$$K_r=\frac{1}{2}I{\omega^2}$$					-Rotational Kinetic Energy
+%		$$L= I\omega = r \times p = rp\sin{\theta}$$	-Angular Momentum
+%		$$L_{before}=L_{after}$$						-Conservation of Angular Momentum
+
+%		$$F_g = \frac{\text{G}m_1 m_2}{r^2}$$			-Newton's Law of Universal Gravitation
+%		$$U_g= -\frac{\text{G}m_1 m_2}{r}$$				-Gravitational Potential Energy
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Vibrations, Simple Harmonic Motion, Sound %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+%		$$v=f\lambda$$								-speed of a wave
+%		$4T=\frac{2\pi}{\omega}=\frac{1}{f}$$		-period of a wave
+%		$$x(t)=x_{max}\cos{(\omega t + \phi)}$$	    -wave equation
+%		$$T_s=2\pi\sqrt{\frac{m}{k}}$$				-Period of an oscillating spring
+%		$$T_p=2\pi\sqrt{\frac{l}{g}}$$				-Period of a Pendulum
+%		$$\frac{\mathrm{d}^2 \smiley{}}{{dt}^2} - {\omega}^2 \smiley{} = 0$$ 	-General Simple Harmonic Motion Equation
+%		
+		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Fluid Mechanics %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		$$\rho=m/V$$						-Density
+%		$$P=F/A$$							-Definition of Pressure
+%		$$P=P_i+\rho gh	$$					-Pressure change as a function of depth
+%		$$\rho_1A_1v_1=\rho_2A_2v_2$$		-Continuity Equation for fluid flow
+%		$$F_b=\rho gV_{displaced}$$			-Archimedes Principle
+%		$$P_1+\frac{1}{2}\rho v_1^2 +\rho gh_1 = P_2+\frac{1}{2}\rho v_2^2 +\rho gh_2 $$ -Bernoulli Equation
+%		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Thermodynamics %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%		$$\frac{\Delta Q}{\Delta t} = \frac{k A \Delta T}{l}$$ 		-Conduction Equation
+%		$$Q = mc \Delta T$$											-Heat Flow Equation (sensible heat)
+%		$$Q=mL_f$$													-Latent Heat of Fusion
+%		$$Q=mL_v$$													-Latent Heat of Vaporization
+%		$$ \Delta l = \alpha l_0 \Delta T$$							-Length expansion
+%		$$ \Delta A = 2 \alpha A_0 \Delta T$$						-Area expansion
+%		$$ \Delta V = 3 \alpha V_0 \Delta T$$						-Volume Expansion
+%       $$PV=Nk_BT$$												-Ideal Gas Law
+%		$$K=\frac{n}{2}k_BT$$										-Equipartition Theorem
+			%if Ideal Gas:
+            	% then $$K=\frac{3}{2}k_BT$$
+%		$$W=-\int P \mathrm{d}V										-Thermodynamic Work on a gas (calc)
+%		$$W=-P \DeltaV$$											-Thermodynamic Work on a gas Equation-trig
+%		$$\Delta U= Q+W$$											-1st Law of Thermodynamics
+%		$$\epsilon_{real} = 1- \frac{Q_c}{Q_h}$$					-Real Efficiency 
+%       $$\epsilon_{theory} = 1- \frac{T_c}{T_h}$$					-Theoretical "Carnot" efficiency
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Misc. Useful Things %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% \framebox{box}  This puts a box around something. Good for showing something important
+% to quote someone, use the following template:
+	%\begin{quotation}
+	%``You miss 100\% of the shots you never take'' %note that quotes are formatted this way in LaTeX
+	%-Michael Scott
+	%\end{quotation}
+
+
+
+% https://physics.info/equations/ is a good source for most common equations found in introductory physics (trig and calc based)
+
+
+
+
+\end{document}
